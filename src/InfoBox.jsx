@@ -27,7 +27,7 @@ function InfoBox({info}) {
         {info.city}
         </Typography>
         <Typography variant="body2" color="text.secondary" component={"span"}>
-        <p>weather : {info.weather}</p>
+        <p >weather : {info.weather}</p>
         <p>Temperature : {info.temp}&deg;C</p> 
         <p>tempMin: {info.tempMin}&deg;C</p>
         <p>tempMax: {info.tempMax}&deg;c</p>
