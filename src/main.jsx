@@ -6,7 +6,7 @@ import { HashRouter,    } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <HashRouter basename="/">
+      <HashRouter basename="/weather-app">
           <App/>
       </HashRouter>  
   </React.StrictMode>,
